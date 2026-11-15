@@ -1,20 +1,15 @@
 {
   "backend": {
     "name": "github",
-    "repo": "SETUP_REQUIRED/portfolio",
+    "repo": "ricechickengames/sarah-kostuk-portfolio",
     "branch": "main",
-    "base_url": "http://127.0.0.1:4173",
+    "base_url": "https://sarah-kostuk-portfolio.pages.dev",
     "auth_endpoint": "auth"
   },
   "media_folder": "assets/uploads",
   "public_folder": "/assets/uploads",
-  "media_library": {
-    "config": {
-      "max_file_size": 10000000
-    }
-  },
-  "site_url": "http://127.0.0.1:4173",
-  "display_url": "http://127.0.0.1:4173",
+  "site_url": "https://sarah-kostuk-portfolio.pages.dev",
+  "display_url": "https://sarah-kostuk-portfolio.pages.dev",
   "logo_url": "/assets/studio-logo.svg",
   "collections": [
     {
