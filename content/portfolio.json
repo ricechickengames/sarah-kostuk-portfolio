@@ -1,0 +1,116 @@
+{
+  "categories": [
+    {
+      "id": "computer-science",
+      "title": "Computer Science",
+      "description": "Web design, app design, coding and more",
+      "body": "Add your web design, app design, and coding projects here.",
+      "photos": [
+        {
+          "src": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=500&q=85",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=500&q=85",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=500&q=85",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=500&q=85",
+          "x": 50,
+          "y": 50
+        }
+      ],
+      "files": []
+    },
+    {
+      "id": "art-craft",
+      "title": "Art & Craft",
+      "description": "A visual journal of great variety.",
+      "body": "Add your artwork, handmade pieces, and creative experiments here.",
+      "photos": [
+        {
+          "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=500&q=85",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=500&q=85",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=500&q=85",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=500&q=85",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=500&q=85",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=500&q=85",
+          "x": 50,
+          "y": 50
+        }
+      ],
+      "files": []
+    },
+    {
+      "id": "softball",
+      "title": "Softball",
+      "description": "Softball is my passion. A collection of accomplishments as a coach and player.",
+      "body": "Add your softball stories, coaching experiences, and accomplishments here.",
+      "photos": [
+        {
+          "src": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=500&q=85",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=500&q=85",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=500&q=85",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=500&q=85",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=500&q=85",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=500&q=85",
+          "x": 50,
+          "y": 50
+        }
+      ],
+      "files": []
+    }
+  ],
+  "about": "Your story belongs here. Use the edit screen to add your name, interests, background, and what you love creating.",
+  "contact": "Add your preferred contact details here using the edit screen.",
+  "email": "",
+  "subscribe": "Add your newsletter or updates link using the edit screen.",
+  "subscribeUrl": ""
+}
