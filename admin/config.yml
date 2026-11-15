@@ -1,0 +1,143 @@
+{
+  "backend": {
+    "name": "github",
+    "repo": "SETUP_REQUIRED/portfolio",
+    "branch": "main",
+    "base_url": "http://127.0.0.1:4173",
+    "auth_endpoint": "auth"
+  },
+  "media_folder": "assets/uploads",
+  "public_folder": "/assets/uploads",
+  "media_library": {
+    "config": {
+      "max_file_size": 10000000
+    }
+  },
+  "site_url": "http://127.0.0.1:4173",
+  "display_url": "http://127.0.0.1:4173",
+  "logo_url": "/assets/studio-logo.svg",
+  "collections": [
+    {
+      "name": "portfolio",
+      "label": "Your portfolio",
+      "files": [
+        {
+          "name": "portfolio",
+          "label": "Pages & folder photos",
+          "file": "content/portfolio.json",
+          "format": "json",
+          "fields": [
+            {
+              "name": "categories",
+              "label": "Project folders",
+              "widget": "list",
+              "allow_add": false,
+              "min": 3,
+              "max": 3,
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "id",
+                  "widget": "hidden"
+                },
+                {
+                  "label": "Folder title",
+                  "name": "title",
+                  "widget": "string"
+                },
+                {
+                  "label": "Short description",
+                  "name": "description",
+                  "widget": "text"
+                },
+                {
+                  "label": "Page content",
+                  "name": "body",
+                  "widget": "text"
+                },
+                {
+                  "label": "Folder photographs",
+                  "name": "photos",
+                  "widget": "list",
+                  "min": 4,
+                  "max": 6,
+                  "summary": "Photo {{index}}",
+                  "fields": [
+                    {
+                      "label": "Photo",
+                      "name": "src",
+                      "widget": "image"
+                    },
+                    {
+                      "label": "Horizontal crop (%)",
+                      "name": "x",
+                      "widget": "number",
+                      "value_type": "int",
+                      "min": 0,
+                      "max": 100,
+                      "default": 50
+                    },
+                    {
+                      "label": "Vertical crop (%)",
+                      "name": "y",
+                      "widget": "number",
+                      "value_type": "int",
+                      "min": 0,
+                      "max": 100,
+                      "default": 50
+                    }
+                  ]
+                },
+                {
+                  "label": "Project attachments",
+                  "name": "files",
+                  "widget": "list",
+                  "required": false,
+                  "fields": [
+                    {
+                      "label": "Display name",
+                      "name": "name",
+                      "widget": "string"
+                    },
+                    {
+                      "label": "File",
+                      "name": "src",
+                      "widget": "file"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "About page text",
+              "name": "about",
+              "widget": "text"
+            },
+            {
+              "label": "Contact page text",
+              "name": "contact",
+              "widget": "text"
+            },
+            {
+              "label": "Subscribe page text",
+              "name": "subscribe",
+              "widget": "text"
+            },
+            {
+              "label": "Contact email",
+              "name": "email",
+              "widget": "string",
+              "required": false
+            },
+            {
+              "label": "Newsletter subscription URL",
+              "name": "subscribeUrl",
+              "widget": "string",
+              "required": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
