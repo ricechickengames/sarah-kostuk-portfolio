@@ -1,0 +1,3 @@
+const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
+const source=fs.readFileSync('app.js','utf8'),content=JSON.parse(fs.readFileSync('content/portfolio.json','utf8'));
+for(const [pathname,title] of [['/','past projects'],['/computer-science','Computer Science'],['/computer-science.html','Computer Science'],['/art-craft','Art &amp; Craft'],['/softball','Softball'],['/about','about'],['/contact','contact'],['/subscribe','subscribe']])test('renders '+pathname,async()=>{const app={innerHTML:''};await vm.runInNewContext(source,{document:{querySelector:()=>app},location:{pathname},fetch:async()=>({ok:true,json:async()=>content}),console});assert.ok(app.innerHTML.includes('<h1>'+title+'</h1>'))});
