@@ -22,6 +22,6 @@ The account owner must complete any new account terms, approve app installation/
 
 ## Editing
 
-Open /admin/, sign in to GitHub, and choose Your portfolio → Pages & folder photos. Replace images, adjust horizontal and vertical crop percentages, edit page text, or add attachments. Click Publish, then wait for Cloudflare's new deployment. Contact supports an email link; Subscribe supports an external newsletter URL. Empty destinations show no button.
+Open /admin/, sign in to GitHub, and choose Your portfolio → Pages & folder photos. Replace images, adjust horizontal and vertical crop percentages, edit page text, or add attachments. Click Publish, then wait for Cloudflare's new deployment. About is the landing page, Projects is second in the navigation, and Contact supports an email link.
 
 The portfolio repository, uploaded media, page text, and Git history are public. Only upload content intended to be shared. Media removed from a page may remain in Git history. Keep uploaded media below 10 MB. Compress photos before uploading. Firebase is no longer used; no paid billing has been enabled. Old browser drafts are not automatically migrated; retain any exported backup.
