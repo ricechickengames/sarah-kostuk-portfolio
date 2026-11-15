@@ -4,7 +4,7 @@
       "id": "computer-science",
       "title": "Computer Science",
       "description": "Web design, app design, coding and more",
-      "body": "Add your web design, app design, and coding projects here.",
+      "body": "",
       "photos": [
         {
           "src": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=500&q=85",
@@ -66,7 +66,12 @@
           "y": 50
         }
       ],
-      "files": []
+      "files": [
+        {
+          "name": "2024",
+          "src": "/assets/uploads/2babygoodcopy.wav"
+        }
+      ]
     },
     {
       "id": "softball",
