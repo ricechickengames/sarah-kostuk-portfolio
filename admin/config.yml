@@ -51,17 +51,49 @@
                   "widget": "text"
                 },
                 {
-                  "label": "Folder photographs",
+                  "label": "Folder photos & media",
                   "name": "photos",
                   "widget": "list",
                   "min": 4,
                   "max": 6,
-                  "summary": "Photo {{index}}",
+                  "summary": "{{fields.label}}",
                   "fields": [
                     {
-                      "label": "Photo",
+                      "label": "Media type",
+                      "name": "type",
+                      "widget": "select",
+                      "required": false,
+                      "default": "auto",
+                      "options": [
+                        {
+                          "label": "Detect automatically",
+                          "value": "auto"
+                        },
+                        {
+                          "label": "Photo",
+                          "value": "image"
+                        },
+                        {
+                          "label": "Video",
+                          "value": "video"
+                        },
+                        {
+                          "label": "Audio",
+                          "value": "audio"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Photo, video, or audio file",
                       "name": "src",
-                      "widget": "image"
+                      "widget": "file",
+                      "hint": "Upload a photo, MP4/WebM video, or MP3/WAV audio. Keep each file below 25 MiB."
+                    },
+                    {
+                      "label": "Media title",
+                      "name": "label",
+                      "widget": "string",
+                      "required": false
                     },
                     {
                       "label": "Horizontal crop (%)",
@@ -114,19 +146,8 @@
               "widget": "text"
             },
             {
-              "label": "Subscribe page text",
-              "name": "subscribe",
-              "widget": "text"
-            },
-            {
               "label": "Contact email",
               "name": "email",
-              "widget": "string",
-              "required": false
-            },
-            {
-              "label": "Newsletter subscription URL",
-              "name": "subscribeUrl",
               "widget": "string",
               "required": false
             }
