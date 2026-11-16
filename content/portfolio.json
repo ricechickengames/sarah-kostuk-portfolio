@@ -9,17 +9,17 @@
         {
           "src": "/assets/uploads/weather-match.png",
           "x": 50,
-          "y": 50
+          "y": 70
         },
         {
           "src": "/assets/uploads/2.png",
-          "x": 50,
-          "y": 50
+          "x": 0,
+          "y": 0
         },
         {
-          "src": "https://teamstride-training.web.app/#overview",
-          "x": 50,
-          "y": 50
+          "src": "/assets/uploads/2.png",
+          "x": 0,
+          "y": 100
         },
         {
           "src": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=500&q=85",
