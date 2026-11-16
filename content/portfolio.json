@@ -83,39 +83,39 @@
       "id": "art-craft",
       "title": "Art & Craft",
       "description": "A visual journal of great variety.",
-      "body": "Add your artwork, handmade pieces, and creative experiments here.",
+      "body": "drawing, painting, sculpture, animation, photography, crocheting, woodwork, jewelry making, bead work, embroidery, cross stitch, knitting, sewing, crafting, building, planning. ",
       "photos": [
         {
           "src": "/assets/scene-a2baby.mp4",
           "type": "video",
-          "label": "2024",
+          "label": "animation",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "src": "/assets/uploads/20210803_223039.jpg",
           "x": 50,
           "y": 50
         },
         {
-          "src": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=500&q=85",
+          "src": "/assets/uploads/class-12-a1.jpg",
           "x": 50,
           "y": 50
         },
         {
-          "src": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=500&q=85",
+          "src": "/assets/uploads/20221212_214132.jpg",
           "x": 50,
           "y": 50
         },
         {
-          "src": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=500&q=85",
+          "src": "/assets/uploads/picklejar.png",
           "x": 50,
           "y": 50
         },
         {
-          "src": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=500&q=85",
-          "x": 50,
-          "y": 50
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=500&q=85",
-          "x": 50,
-          "y": 50
+          "src": "/assets/uploads/berriesflowerzoomedout.jpg",
+          "x": 0,
+          "y": 0
         }
       ],
       "files": [],
