@@ -27,7 +27,57 @@
           "y": 50
         }
       ],
-      "files": []
+      "files": [],
+      "galleryWall": [
+        {
+          "src": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=500&q=85",
+          "alt": "Computer Science gallery photo 1",
+          "caption": "",
+          "size": "large",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=500&q=85",
+          "alt": "Computer Science gallery photo 2",
+          "caption": "",
+          "size": "portrait",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=500&q=85",
+          "alt": "Computer Science gallery photo 3",
+          "caption": "",
+          "size": "square",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=500&q=85",
+          "alt": "Computer Science gallery photo 4",
+          "caption": "",
+          "size": "small",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=500&q=85",
+          "alt": "Computer Science gallery photo 5",
+          "caption": "",
+          "size": "wide",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=500&q=85",
+          "alt": "Computer Science gallery photo 6",
+          "caption": "",
+          "size": "medium",
+          "x": 50,
+          "y": 50
+        }
+      ]
     },
     {
       "id": "art-craft",
@@ -68,7 +118,57 @@
           "y": 50
         }
       ],
-      "files": []
+      "files": [],
+      "galleryWall": [
+        {
+          "src": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=500&q=85",
+          "alt": "Art & Craft gallery photo 1",
+          "caption": "",
+          "size": "large",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=500&q=85",
+          "alt": "Art & Craft gallery photo 2",
+          "caption": "",
+          "size": "portrait",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=500&q=85",
+          "alt": "Art & Craft gallery photo 3",
+          "caption": "",
+          "size": "square",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=500&q=85",
+          "alt": "Art & Craft gallery photo 4",
+          "caption": "",
+          "size": "small",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=500&q=85",
+          "alt": "Art & Craft gallery photo 5",
+          "caption": "",
+          "size": "wide",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=500&q=85",
+          "alt": "Art & Craft gallery photo 6",
+          "caption": "",
+          "size": "medium",
+          "x": 50,
+          "y": 50
+        }
+      ]
     },
     {
       "id": "softball",
@@ -107,7 +207,57 @@
           "y": 50
         }
       ],
-      "files": []
+      "files": [],
+      "galleryWall": [
+        {
+          "src": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=500&q=85",
+          "alt": "Softball gallery photo 1",
+          "caption": "",
+          "size": "large",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=500&q=85",
+          "alt": "Softball gallery photo 2",
+          "caption": "",
+          "size": "portrait",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=500&q=85",
+          "alt": "Softball gallery photo 3",
+          "caption": "",
+          "size": "square",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=500&q=85",
+          "alt": "Softball gallery photo 4",
+          "caption": "",
+          "size": "small",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=500&q=85",
+          "alt": "Softball gallery photo 5",
+          "caption": "",
+          "size": "wide",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=500&q=85",
+          "alt": "Softball gallery photo 6",
+          "caption": "",
+          "size": "medium",
+          "x": 50,
+          "y": 50
+        }
+      ]
     }
   ],
   "about": "Your story belongs here. Use the edit screen to add your name, interests, background, and what you love creating.",
