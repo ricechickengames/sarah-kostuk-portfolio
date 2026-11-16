@@ -21,3 +21,16 @@ figure.photo,figure.media-frame{margin:0}.photo>img,.photo>a,.photo>a>img,.photo
 .spine-author{display:none}.empty-book{display:block}
 .reading-empty{color:#704f42;text-align:center;font-size:13px;margin:0}
 @media(max-width:700px){.reading-corner{margin-top:80px;padding:0 10px}.reading-corner>h2{font-size:37px}.shelf-row{min-width:720px}.reading-caption{margin-bottom:6px}}
+
+/* Full-size artwork viewer, including both Art & Craft galleries. */
+.photo-enlarge{display:block;width:100%;height:100%;min-height:0;border:0;padding:0;background:none;cursor:zoom-in;color:inherit;text-align:inherit}
+.wall-frame>.photo-enlarge{flex:1;min-height:0;overflow:hidden}.wall-frame>.photo-enlarge>img{display:block;width:100%;height:100%;object-fit:cover}
+.photo-dialog{border:0;border-radius:5px;background:#fff8e9;color:#634f48;padding:28px;max-width:94vw;max-height:94vh;box-shadow:0 20px 80px #38232955}
+.photo-dialog::backdrop{background:#292027c9;backdrop-filter:blur(4px)}
+.photo-dialog h2{font:400 20px Georgia,serif;text-align:center;margin:5px 28px 18px}.enlarged-photo{display:block;max-width:85vw;max-height:76vh;width:auto;height:auto;object-fit:contain;margin:auto}
+/* Square, aligned project highlights with a restrained professional layout. */
+.science-page{max-width:1080px}.science-page .featured-heading{font:400 27px Georgia,serif;margin:0 0 23px}.featured-projects{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}
+.featured-project{min-width:0}.science-page .featured-projects .media-frame{margin:0;width:100%;height:auto;aspect-ratio:1;border:0;border-radius:0;padding:0;transform:none;box-shadow:none;overflow:hidden;background:#e7dfd3}
+.science-page .featured-projects .media-frame img,.science-page .featured-projects .media-frame video{display:block;width:100%;height:100%;border:0;border-radius:0;transform:none;object-fit:cover}
+.featured-project h3{font:500 16px 'DM Sans',sans-serif;letter-spacing:0;margin:13px 0 5px}.science-page .content-card{margin-top:48px}.project-list ul{padding:0;margin:24px 0 0;list-style:none}.project-list li{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;padding:25px 0;border-top:1px solid #bba89880}.project-list h3{font:500 19px 'DM Sans',sans-serif;margin:0 0 8px}.project-list li p{font-size:14px;line-height:1.7;margin:0;max-width:600px}.project-links{flex:0 0 auto;display:flex;flex-direction:column;gap:12px;padding-top:3px;font-size:13px}.project-links a{text-underline-offset:4px}.project-list-empty{font-size:14px;opacity:.75}
+@media(max-width:600px){.featured-projects{grid-template-columns:1fr;gap:26px}.project-list li{flex-direction:column;gap:12px}.project-links{flex-direction:row;flex-wrap:wrap;gap:20px}.photo-dialog{padding:25px 12px 15px}.enlarged-photo{max-width:85vw;max-height:72vh}}
