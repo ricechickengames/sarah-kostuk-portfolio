@@ -7,17 +7,17 @@
       "body": "insert text",
       "photos": [
         {
-          "src": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=500&q=85",
+          "src": "/assets/uploads/weather-match.png",
           "x": 50,
           "y": 50
         },
         {
-          "src": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=500&q=85",
+          "src": "/assets/uploads/2.png",
           "x": 50,
           "y": 50
         },
         {
-          "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=500&q=85",
+          "src": "https://teamstride-training.web.app/#overview",
           "x": 50,
           "y": 50
         },
