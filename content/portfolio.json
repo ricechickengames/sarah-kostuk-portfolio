@@ -89,12 +89,12 @@
           "src": "/assets/scene-a2baby.mp4",
           "type": "video",
           "label": "animation",
-          "x": 0,
+          "x": 20,
           "y": 0
         },
         {
           "src": "/assets/uploads/20210803_223039.jpg",
-          "x": 50,
+          "x": 10,
           "y": 50
         },
         {
