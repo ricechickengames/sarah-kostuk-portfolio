@@ -25,3 +25,9 @@ The account owner must complete any new account terms, approve app installation/
 Open /admin/, sign in to GitHub, and choose Your portfolio → Pages & folder photos. Replace images, adjust horizontal and vertical crop percentages, edit page text, or add attachments. Click Publish, then wait for Cloudflare's new deployment. About is the landing page, Projects is second in the navigation, and Contact supports an email link.
 
 The portfolio repository, uploaded media, page text, and Git history are public. Only upload content intended to be shared. Media removed from a page may remain in Git history. Keep uploaded media below 10 MB. Compress photos before uploading. Firebase is no longer used; no paid billing has been enabled. Old browser drafts are not automatically migrated; retain any exported backup.
+
+## Website projects
+
+In Portfolio Studio, choose **Website projects → New website project**. Enter a title and description, choose **Upload website folder**, and select the full built website directory. Pick its **Starting page** (usually `index.html`) and Publish. The project appears under Computer Science → A little more after Cloudflare deploys it. Reopen the entry to change the starting page or replace the folder.
+
+Folders may contain up to 250 files and 20 MB of HTML, CSS, JavaScript, images, fonts and other supported static assets. Folder paths are retained. Projects with a server/database need separate hosting. Each project is isolated from the portfolio editor; browser-storage-dependent features may need adaptation. Do not include API keys or personal information in a public project folder. The source bundles stay outside the public build; visitors load only the compiled website and a small project listing.

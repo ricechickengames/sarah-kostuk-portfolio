@@ -7,3 +7,8 @@
   X-Robots-Tag: noindex
 /content/*
   Cache-Control: no-cache
+
+/web-projects/*
+  Content-Security-Policy: sandbox allow-scripts allow-forms allow-modals allow-popups
+  Access-Control-Allow-Origin: *
+  X-Robots-Tag: noindex
