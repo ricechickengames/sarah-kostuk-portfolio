@@ -6,8 +6,8 @@ figure.photo,figure.media-frame{margin:0}.photo>img,.photo>a,.photo>a>img,.photo
 
 /* The illustrated floating shelf stays separate from the editable book buttons. */
 .reading-corner{max-width:1180px;margin:110px auto 10px;padding:0 28px}
-.reading-corner>h2{font-size:clamp(34px,4.5vw,55px);font-style:italic;text-align:center;color:#654536;letter-spacing:-1px;margin:0 0 8px}
-.reading-caption{text-align:center;font-size:13px;letter-spacing:2px;color:#704f42;margin:0 0 22px}
+.reading-corner>h2{font-size:clamp(34px,4.5vw,55px);font-style:italic;text-align:center;color:var(--cream);letter-spacing:-1px;margin:0 0 8px}
+.reading-caption{text-align:center;font-size:13px;letter-spacing:2px;color:var(--cream);margin:0 0 22px}
 .bookshelf{padding:0;border:0;background:none;box-shadow:none}
 .shelf-scroll{overflow-x:auto;padding:10px 0 20px;scrollbar-width:thin;scrollbar-color:#7b5745 transparent}
 .shelf-row{position:relative;display:block;aspect-ratio:3/1;min-width:720px;min-height:260px;margin:0 0 20px;padding:0;border:0;box-shadow:none;overflow:visible;container-type:inline-size}
