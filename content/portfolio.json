@@ -177,34 +177,40 @@
       "body": "Add your softball stories, coaching experiences, and accomplishments here.",
       "photos": [
         {
-          "src": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=500&q=85",
+          "src": "/assets/uploads/headshots-34.jpg",
           "x": 50,
-          "y": 50
+          "y": 50,
+          "label": "2024 coach"
         },
         {
-          "src": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=500&q=85",
+          "src": "/assets/uploads/2-1-copy.jpg",
           "x": 50,
-          "y": 50
+          "y": 50,
+          "label": "2022 Synergy"
         },
         {
-          "src": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=500&q=85",
+          "src": "/assets/uploads/img_0550.jpg",
           "x": 50,
-          "y": 50
+          "y": 50,
+          "label": "2022 Synergy"
         },
         {
-          "src": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=500&q=85",
+          "src": "/assets/uploads/img-20171008-wa0018.jpg",
           "x": 50,
-          "y": 50
+          "y": 50,
+          "label": "2018 UofS"
         },
         {
-          "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=500&q=85",
+          "src": "/assets/uploads/uofs-coach-art_3412.jpg",
           "x": 50,
-          "y": 50
+          "y": 50,
+          "label": "2025 coach"
         },
         {
-          "src": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=500&q=85",
+          "src": "/assets/uploads/screenshot_20261116_171603_photos.jpg",
           "x": 50,
-          "y": 50
+          "y": 50,
+          "label": "2024 coach"
         }
       ],
       "files": [],
