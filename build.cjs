@@ -4,6 +4,10 @@ if(fs.existsSync(path.join(output,'subscribe.html')))fs.unlinkSync(path.join(out
 const files=['index.html','about.html','projects.html','contact.html','computer-science.html','art-craft.html','softball.html','app.js','style.css','_headers','_redirects'];
 for(const file of files)fs.copyFileSync(path.join(__dirname,file),path.join(output,file));
 for(const dir of ['assets','content','admin'])fs.cpSync(path.join(__dirname,dir),path.join(output,dir),{recursive:true});
+// Content hashes keep existing browsers from combining cached styles with a new gallery.
+const assetHash=file=>require('node:crypto').createHash('sha256').update(fs.readFileSync(path.join(__dirname,file))).digest('hex').slice(0,12);
+for(const file of files.filter(file=>file.endsWith('.html'))){const target=path.join(output,file);fs.writeFileSync(target,fs.readFileSync(target,'utf8').replace('href="style.css"',`href="style.css?v=${assetHash('style.css')}"`).replace('src="app.js"',`src="app.js?v=${assetHash('app.js')}"`));}
+const adminIndex=path.join(output,'admin/index.html');fs.writeFileSync(adminIndex,fs.readFileSync(adminIndex,'utf8').replace(/src="\/admin\/([\w-]+\.js)"/g,(_,file)=>`src="/admin/${file}?v=${assetHash('admin/'+file)}"`));
 const repository=process.env.GITHUB_REPOSITORY||'SETUP_REQUIRED/portfolio';
 if(!/^[\w.-]+\/[\w.-]+$/.test(repository))throw Error('GITHUB_REPOSITORY must be owner/repo');
 const siteUrl=process.env.SITE_URL||process.env.CF_PAGES_URL||'http://127.0.0.1:4173';
