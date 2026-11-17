@@ -174,7 +174,7 @@
       "id": "softball",
       "title": "Softball",
       "description": "Softball is my passion. A collection of accomplishments as a coach and player.",
-      "body": "Add your softball stories, coaching experiences, and accomplishments here.",
+      "body": "text",
       "photos": [
         {
           "src": "/assets/uploads/headshots-34.jpg",
@@ -262,6 +262,18 @@
           "size": "medium",
           "x": 50,
           "y": 50
+        }
+      ],
+      "projectEntries": [
+        {
+          "title": "Weather Match",
+          "description": "Have you ever wondered where else in the world is the same temperature as you right now? This app answers that. ",
+          "url": "https://weather-match-27c3b.web.app/"
+        },
+        {
+          "title": "Team Stride",
+          "description": "In progress",
+          "url": "https://teamstride-training.web.app/#overview"
         }
       ]
     }
