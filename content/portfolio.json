@@ -105,78 +105,168 @@
           "y": 0
         },
         {
-          "src": "/assets/uploads/20210803_223039.jpg",
-          "x": 10,
-          "y": 50
-        },
-        {
-          "src": "/assets/uploads/class-12-a1.jpg",
+          "src": "/assets/artwork/bison-painting.png",
+          "type": "image",
+          "label": "Colourful bison painting on a yellow background",
           "x": 50,
           "y": 50
         },
         {
-          "src": "/assets/uploads/20221212_214132.jpg",
+          "src": "/assets/artwork/courtyard-painting.png",
+          "type": "image",
+          "label": "Painting of a courtyard with balconies",
           "x": 50,
           "y": 50
         },
         {
-          "src": "/assets/uploads/picklejar.png",
+          "src": "/assets/artwork/pond.jpg",
+          "type": "image",
+          "label": "Garden pond framed by green trees",
           "x": 50,
           "y": 50
         },
         {
-          "src": "/assets/uploads/berriesflowerzoomedout.jpg",
-          "x": 0,
-          "y": 0
+          "src": "/assets/artwork/green-branches.jpg",
+          "type": "image",
+          "label": "Close-up photograph of green branches",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "/assets/artwork/golf-swing.jpg",
+          "type": "image",
+          "label": "Golfer swinging beside tall trees",
+          "x": 50,
+          "y": 50
         }
       ],
       "files": [],
       "galleryWall": [
         {
-          "src": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=500&q=85",
-          "alt": "Art & Craft gallery photo 1",
-          "caption": "",
+          "src": "/assets/artwork/stop-motion.mp4",
+          "type": "video",
+          "alt": "Stop-motion film",
+          "caption": "Stop-motion film",
+          "size": "large",
+          "poster": "/assets/artwork/stop-motion-poster.jpg",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "/assets/artwork/technical-learner-2.mp4",
+          "type": "video",
+          "alt": "Technical Learner 2",
+          "caption": "Technical Learner 2",
+          "size": "large",
+          "poster": "/assets/artwork/technical-learner-2-poster.jpg",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "/assets/artwork/technical-learner-1.mp4",
+          "type": "video",
+          "alt": "Technical Learner 1",
+          "caption": "Technical Learner 1",
+          "size": "large",
+          "poster": "/assets/artwork/technical-learner-1-poster.jpg",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "/assets/artwork/bison-painting.png",
+          "alt": "Colourful bison painting on a yellow background",
           "size": "large",
           "x": 50,
           "y": 50
         },
         {
-          "src": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=500&q=85",
-          "alt": "Art & Craft gallery photo 2",
-          "caption": "",
-          "size": "portrait",
-          "x": 50,
-          "y": 50
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=500&q=85",
-          "alt": "Art & Craft gallery photo 3",
-          "caption": "",
+          "src": "/assets/artwork/architecture-wash.png",
+          "alt": "Architectural drawing with an ink wash",
           "size": "square",
           "x": 50,
           "y": 50
         },
         {
-          "src": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=500&q=85",
-          "alt": "Art & Craft gallery photo 4",
-          "caption": "",
+          "src": "/assets/artwork/architecture-perspective.png",
+          "alt": "Perspective drawing of a modern building",
           "size": "small",
           "x": 50,
           "y": 50
         },
         {
-          "src": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=500&q=85",
-          "alt": "Art & Craft gallery photo 5",
-          "caption": "",
-          "size": "wide",
+          "src": "/assets/artwork/architecture-pitched-roof.png",
+          "alt": "Pencil drawing of a pitched-roof house",
+          "size": "medium",
           "x": 50,
           "y": 50
         },
         {
-          "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=500&q=85",
-          "alt": "Art & Craft gallery photo 6",
-          "caption": "",
+          "src": "/assets/artwork/architecture-modern-house.png",
+          "alt": "Perspective sketch of a modern house",
+          "size": "square",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "/assets/artwork/architecture-tower.png",
+          "alt": "Pencil drawing of a multi-storey building",
+          "size": "portrait",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "/assets/artwork/architecture-trees.png",
+          "alt": "House and trees in pencil",
+          "size": "small",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "/assets/artwork/courtyard-painting.png",
+          "alt": "Painting of a courtyard with balconies",
+          "size": "portrait",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "/assets/artwork/pond.jpg",
+          "alt": "Garden pond framed by green trees",
+          "size": "square",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "/assets/artwork/green-branches.jpg",
+          "alt": "Close-up photograph of green branches",
           "size": "medium",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "/assets/artwork/mountain-road.jpg",
+          "alt": "Road and power lines through forested mountains",
+          "size": "small",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "/assets/artwork/forest-lake.jpg",
+          "alt": "Tall trees overlooking a lake",
+          "size": "square",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "/assets/artwork/golf-swing.jpg",
+          "alt": "Golfer swinging beside tall trees",
+          "size": "small",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "/assets/artwork/misty-mountains.jpg",
+          "alt": "Misty mountains beyond a forest and golf course",
+          "size": "square",
           "x": 50,
           "y": 50
         }
