@@ -27,7 +27,16 @@
           "y": 100
         }
       ],
-      "files": [],
+      "files": [
+        {
+          "name": "Weather Match",
+          "src": "https://weather-match-27c3b.web.app/"
+        },
+        {
+          "name": "Team Stride",
+          "src": "https://teamstride-training.web.app/#overview"
+        }
+      ],
       "galleryWall": [
         {
           "src": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=500&q=85",
@@ -77,6 +86,9 @@
           "x": 50,
           "y": 50
         }
+      ],
+      "projectEntries": [
+        {}
       ]
     },
     {
